@@ -82,6 +82,32 @@ target/
 profile_default/
 ipython_config.py
 
+# --- Imaging data ---
+*.tif
+*.tiff
+*.ome.tif
+*.ome.tiff
+
+# --- Suite2p outputs ---
+suite2p/
+*.npy
+
+# --- QC outputs ---
+_QC*
+*.xlsx
+*.csv
+*.parquet
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+
+# --- Jupyter ---
+.ipynb_checkpoints
+
+# --- OS ---
+.DS_Store
+Thumbs.db
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
 #   intended to run in multiple environments; otherwise, check them in:
